@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Unwanted Profiles{% endblock %}
+
+{% block header %}Welcome to the lost people{% endblock %}
+
+{% block content %}
+
+{% for profile in profiles %}
+    <ul>
+        {% if profile == "Erik" %}
+        <li>Hello {{ profile }}</li>
+        {% else %}
+        <li>{{ profile }}</li>
+        {% endif %}
+
+    </ul>
+{% endfor %}
+
+
+{% endblock %}
+
