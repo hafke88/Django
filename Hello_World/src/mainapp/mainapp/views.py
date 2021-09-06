@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    profiles = ["Clint", "Seymour", "Oddjob", "Erik"]
+    profiles = []
     context = {
         'profiles': profiles,
     }

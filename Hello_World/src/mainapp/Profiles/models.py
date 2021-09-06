@@ -1,18 +1,18 @@
 from django.db import models
 
-
 TITLE_CHOICES = {
-    ('Mr.','Mr.'),
-    ('Mrs.','Mrs.'),
-    ('Ms.','Ms.'),
-    ('Dr.','Dr.'),
-    ('Prof.','Prof.'),
-    ('Rev.','Rev.'),
-    ('Gen.','Gen.'),
-    ('Sen.','Sen.'),
+    ('Mr.', 'Mr.'),
+    ('Mrs.', 'Mrs.'),
+    ('Ms.', 'Ms.'),
+    ('Dr.', 'Dr.'),
+    ('Prof.', 'Prof.'),
+    ('Rev.', 'Rev.'),
+    ('Gen.', 'Gen.'),
+    ('Sen.', 'Sen.'),
 }
 
-class Profiles(models.Model):
+
+class Profile(models.Model):
     title = models.CharField(max_length=60, choices=TITLE_CHOICES, null=True)
     first_name = models.CharField(max_length=60)
     last_name = models.CharField(max_length=60)
@@ -23,4 +23,3 @@ class Profiles(models.Model):
 
     def __str__(self):
         return self.first_name
-
