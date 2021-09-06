@@ -22,3 +22,39 @@ def details(request, pk):
             print(form.errors)
     else:
         return render(request, 'profiles/present_profile.html', {'form': form})
+
+
+def delete(request, pk):
+    pk = int(pk)
+    item = get_object_or_404(Profile, pk=pk)
+    if request.method == 'POST':
+        item.delete()
+        return redirect('contact_console')
+    context = {"item": item,}
+    return render(request, "profiles/confirmDelete.html", context)
+
+
+def confirmed(request):
+    if request.method == 'POST':
+        #creates form instance and bids data to it
+        form = ProfileForm(request.POST or None)
+        if form.is_valid():
+            form.delete()
+            return redirect('contact_console')
+    else:
+        return redirect('contact_console')
+
+
+
+def createRecord(request):
+    form = ProfileForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+        return redirect('contact_console')
+    else:
+        print(form.errors)
+        form = ProfileForm()
+    context = {
+        'form': form,
+    }
+    return render(request, 'profiles/createRecord.html', context)
