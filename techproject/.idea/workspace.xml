@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633c9a82-40f7-40a2-b75a-3ecd5ff33f51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Hello_World/src/mainapp/Profiles/templates/profiles/confirmDelete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello_World/src/mainapp/Profiles/templates/profiles/createRecord.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mainapp/products/templates/products/confirmDelete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mainapp/products/templates/products/createRecord.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello_World/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_World/src/mainapp/Profiles/templates/profiles/present_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello_World/src/mainapp/Profiles/templates/profiles/present_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_World/src/mainapp/Profiles/templates/profiles/profiles_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello_World/src/mainapp/Profiles/templates/profiles/profiles_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_World/src/mainapp/Profiles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello_World/src/mainapp/Profiles/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_World/src/mainapp/Profiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello_World/src/mainapp/Profiles/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_World/src/mainapp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello_World/src/mainapp/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_World/src/mainapp/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello_World/src/mainapp/templates/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainapp/products/templates/products/present_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainapp/products/templates/products/present_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainapp/products/templates/products/products_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainapp/products/templates/products/products_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainapp/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainapp/products/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainapp/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainapp/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainapp/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainapp/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
